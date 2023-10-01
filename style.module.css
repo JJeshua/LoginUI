@@ -102,12 +102,13 @@ button {
 #sign-in-btn {
   background: rgb(196, 196, 196);
   background: linear-gradient(
-  9deg,
+    9deg,
     rgba(196, 196, 196, 0.6222864145658263) 0%,
     rgba(52, 118, 194, 0.5634628851540616) 39%,
     rgba(4, 27, 58, 0.8155637254901961) 100%
   );
   margin-top: 2rem;
+  box-shadow: 5px 6px 9px rgba(0, 0, 0, 0.3);
 }
 
 #sign-up-btn {
@@ -135,7 +136,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid #C6C4C4 2px;
+  border: solid #c6c4c4 2px;
 }
 
 .sign-in-item > img {
