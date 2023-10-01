@@ -100,7 +100,6 @@ button {
 }
 
 #sign-in-btn {
-  background: rgb(196, 196, 196);
   background: linear-gradient(
     9deg,
     rgba(196, 196, 196, 0.6222864145658263) 0%,
@@ -109,6 +108,12 @@ button {
   );
   margin-top: 2rem;
   box-shadow: 5px 6px 9px rgba(0, 0, 0, 0.3);
+  background-size: 200% auto;
+  transition: 0.5s;
+}
+
+#sign-in-btn:hover {
+  background-position: right center;
 }
 
 #sign-up-btn {
