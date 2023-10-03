@@ -167,6 +167,6 @@ button {
 }
 
 .discord:hover {
-  filter: invert(38%) sepia(41%) saturate(4159%) hue-rotate(223deg)
-    brightness(96%) contrast(98%);
+  filter: invert(70%) sepia(74%) saturate(3859%) hue-rotate(201deg)
+    brightness(92%) contrast(85%);
 }
