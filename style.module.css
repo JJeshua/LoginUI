@@ -23,10 +23,6 @@ p {
   margin: 0;
 }
 
-.blur-one {
-  background-color: rgba(255, 255, 255, 0.15);
-}
-
 .drop-shadow-one {
   box-shadow: 5px 5px 23px rgba(0, 0, 0, 0.5);
 }
@@ -34,6 +30,10 @@ p {
 .svg-white-conversion {
   filter: invert(99%) sepia(93%) saturate(60%) hue-rotate(281deg)
     brightness(115%) contrast(90%);
+}
+
+.transparent-background-one {
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 input {
@@ -57,14 +57,29 @@ button {
 }
 
 .login-container {
-  width: 400px;
+  width: fit-content;
+  display: flex;
   border-radius: 1.25rem;
-  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  gap: 2px
+}
+
+.left {
+  width: 500px;
+  border-radius: inherit;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.right {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-start;
   color: white;
+  padding: 3rem;
+  border-radius: inherit;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .welcome-title {
@@ -135,12 +150,12 @@ button {
 .alternate-sign-in-container {
   display: flex;
   width: 100%;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-top: 2rem;
 }
 
 .sign-in-item {
-  width: 80px;
+  width: 70px;
   height: 47.5px;
   border-radius: 0.5rem;
   display: flex;
